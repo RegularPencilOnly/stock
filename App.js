@@ -5,12 +5,12 @@ import { stockData } from './stockData';
 
 export default function App() {
 
-  const [buttonClicked, setButtonClicked] = useState(false);
+  const [buttonClicked, setButtonClicked] = useState(true);
   const [textInput, setTextInput] = useState('');
   const [correct, setCorrect] = useState(0);
   const [skipped, setSkipped] = useState(0);
 
-  const [tickerGame, setTickerGame] = useState(false);
+  const [tickerGame, setTickerGame] = useState(true);
   const [stockGame, setStockGame] = useState(true);
   const [text, onChangeText] = useState(null);
 
